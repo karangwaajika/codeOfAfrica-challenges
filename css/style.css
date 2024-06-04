@@ -38,3 +38,10 @@ h2{
 p{
     margin-top: 10%;
 }
+
+/* Remove the image thumbnail when the screen width is less than a tablet size */
+@media screen and (max-width: 576px) { 
+    figcaption{
+        display: none;
+    }
+}
