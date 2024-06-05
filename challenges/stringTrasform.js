@@ -24,6 +24,7 @@ function convertString(str) {
   }
 }
 
+// handle the string reversing
 const reverseString = (str) => {
 
   const reversedArray = str.split("").reverse(); // convert string into an array then reverse it
@@ -32,7 +33,9 @@ const reverseString = (str) => {
   return reversedString;
 };
 
-const convertIntoAsciiCode = (str) => { // handle the ASCII code converting 
+
+// handle the ASCII code converting 
+const convertIntoAsciiCode = (str) => { 
   
   let codeString = "";
   for (let i = 0; i < str.length; i++) {
